@@ -15,7 +15,7 @@ const IndexPage = ({ data, location }) => {
               <Link to={`/${document.node.id}`}>{document.node.title}</Link>
             </h2>
             <img
-              src={`http://localhost:1337${document.node.image.url}`}
+              src={document.node.image.url}
               style={{ width: 200, height: 200 }}
               alt="blog_img"
             />
