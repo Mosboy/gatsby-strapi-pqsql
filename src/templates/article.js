@@ -16,6 +16,7 @@ const ArticleTemplate = ({ data, location }) => (
     <img
       src={data.strapiArticle.image.url}
       alt="img"
+      style={{ width: 200, height: 200 }}
     />
     <p>{data.strapiArticle.content}</p>
   </Layout>
