@@ -12,7 +12,7 @@ const UserTemplate = ({ data, location }) => (
             <Link to={`/Article_${article.id}`}> {article.title} </Link>
           </h2>
           <img
-            src={`http://localhost:1337${article.image.url}`}
+            src={article.image.url}
             alt="image"
             style={{ width: 200, height: 200 }}
           />

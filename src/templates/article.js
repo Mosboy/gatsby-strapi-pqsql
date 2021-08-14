@@ -14,7 +14,7 @@ const ArticleTemplate = ({ data, location }) => (
       </Link>{" "}
     </p>
     <img
-      src={`http://localhost:1337${data.strapiArticle.image.url}`}
+      src={data.strapiArticle.image.url}
       alt="img"
     />
     <p>{data.strapiArticle.content}</p>
